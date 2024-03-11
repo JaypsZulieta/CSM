@@ -12,39 +12,31 @@
             <option value="others">Other requests/inquiries</option>    
         </select> -->
 
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value=" Create/delete/rename/reset user accounts " required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Create/delete/rename/reset user accounts         
-                    </span>
-            </label>
+        <div class="form-control mt-5">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Create/delete/rename/reset user accounts" id="create">
+                <label for="create" class="inter-font">Create/delete/rename/reset user accounts</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Troubleshooting of ICT equipment" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Troubleshooting of ICT equipment
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Troubleshooting of ICT equipment" id="troubleshoot">
+                <label for="troubleshoot" class="inter-font">Troubleshooting of ICT equipment</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Uploading of publications" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Uploading of publications
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Uploading of publications" id="uploading">
+                <label for="uploading" class="inter-font">Uploading of publications</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Other requests/inquiries" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Other requests/inquiries
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Other requests/inquiries" id="others">
+                <label for="others" class="inter-font">Other requests/inquiries</label>
+             </div>
         </div>
-
+        
 
           <div class="form-control mt-5">
             <div class="flex place-content-center gap-2">

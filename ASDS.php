@@ -12,29 +12,23 @@
             <option value="feedback">Feedback or complaints</option>
         </select> -->
 
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="BAC" required>
-                    <span class="label-text inter-font">
-                    BAC
-                    </span>
-            </label>
+        <div class="form-control mt-5">
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="BAC" id="BAC">
+                <label for="BAC" class="inter-font">BAC</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Other request or inqueries" required>
-                    <span class="label-text inter-font">
-                    Other request or inqueries
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Other request or inqueries" id="other">
+                <label for="other" class="inter-font">Other request or inqueries</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Feedback or complaints" required>
-                    <span class="label-text inter-font">
-                    Feedback or complaints
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Feedback or complaints" id="feedback">
+                <label for="feedback" class="inter-font">Feedback or complaints</label>
+             </div>
         </div>
         
 

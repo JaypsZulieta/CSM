@@ -35,69 +35,53 @@
                 SGOD - School Governance and Operations Division (M&E, SocMob, Planning & Research, HRD, Facilities, School Health)
             </option>
         </select> -->
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="SDS" required>
-                    <span class="label-text inter-font">
-                        SDS - School Division Superintendent
-                    </span>
-            </label>
+        <div class="form-control mt-5">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="SDS" id="SDS">
+                <label for="SDS" class="inter-font">SDS - shcool division superintendent</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="ASDS" required>
-                    <span class="label-text inter-font">
-                    ASDS - Assistant Schools Division Superintendent
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="ASDS" id="ASDS">
+                <label for="ASDS" class="inter-font">ASDS - Assistant Schools Division Superintendent</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="Admin" required>
-                    <span class="label-text inter-font">
-                    Admin (Cash, Personnel, Records, Supply, General Services, Procurement*)
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="Admin" id="Admin">
+                <label for="Admin" class="inter-font"> Admin (Cash, Personnel, Records, Supply, General Services, Procurement*)</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="CID" required>
-                    <span class="label-text inter-font">
-                    Curriculum Implementation
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="CID" id="CID">
+                <label for="CID" class="inter-font">CID - Curriculum Implementation</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="Finance" required>
-                    <span class="label-text inter-font">
-                    Finance (Accounting, Budget)
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="Finance" id="Finance">
+                <label for="Finance" class="inter-font">Finance (Accounting, Budget)</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="ICT" required>
-                    <span class="label-text inter-font">
-                    ICT
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="ICT" id="ICT">
+                <label for="ICT" class="inter-font">ICT</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="Legal" required>
-                    <span class="label-text inter-font">
-                    Legal
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="Legal" id="Legal">
+                <label for="Legal" class="inter-font">Legal</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="SGOD" required>
-                    <span class="label-text inter-font">
-                            SGOD - School Governance and Operations Division
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="SGOD" id="SGOD">
+                <label for="SGOD" class="inter-font">SGOD - School Governance and Operations Division (M&E, SocMob, Planning & Research, HRD, Facilities, School Health)</label>
+             </div>
         </div>
         
         

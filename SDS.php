@@ -11,31 +11,25 @@
             <option value="other">Other request or inqueries</option>
             <option value="feedback">Feedback or complaints</option>
         </select> -->
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Travel Authority" required>
-                    <span class="label-text inter-font">
-                    Travel Authority
-                    </span>
-            </label>
+       
+        <div class="form-control mt-5">
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Travel Authority" id="travelAuthority">
+                <label for="travelAuthority" class="inter-font">Travel Authority</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Other request or inqueries" required>
-                    <span class="label-text inter-font">
-                    Other request or inqueries
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Other request or inqueries" id="other">
+                <label for="other" class="inter-font">Other request or inqueries</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Feedback or complaints" required>
-                    <span class="label-text inter-font">
-                    Feedback or complaints
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Feedback or complaints" id="feedback">
+                <label for="feedback" class="inter-font">Feedback or complaints</label>
+             </div>
         </div>
-
 
         <div class="form-control mt-5">
             <div class="flex place-content-center gap-2">

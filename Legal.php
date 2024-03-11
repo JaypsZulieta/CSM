@@ -13,46 +13,37 @@
             <option value="sites">Sites titling</option>    
         </select> -->
 
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Certificate of No. Pending Case" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Certificate of No. Pending Case
-                    </span>
-            </label>
+        <div class="form-control mt-5">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Certificate of No. Pending Case" id="certificate">
+                <label for="certificate" class="inter-font">Certificate of No. Pending Case</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Correction of Entries in School Record" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Correction of Entries in School Record
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Correction of Entries in School Record" id="correction">
+                <label for="correction" class="inter-font">Correction of Entries in School Record</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Feedback/Complaints" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Feedback/Complaints
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Feedback/Complaints" id="feedback">
+                <label for="feedback" class="inter-font">Feedback/Complaints</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Legal advice/opinion" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Legal advice/opinion
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Legal advice/opinion" id="legal">
+                <label for="legal" class="inter-font">Legal advice/opinion</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Sites titling" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Sites titling
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Sites titling" id="sites">
+                <label for="sites" class="inter-font">Sites titling</label>
+             </div>
         </div>
+        
 
           <div class="form-control mt-5">
             <div class="flex place-content-center gap-2">

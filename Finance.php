@@ -12,23 +12,18 @@
             
         </select> -->
 
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="accounting" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Accounting
-                    </span>
-            </label>
+        <div class="form-control mt-5">
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Accounting" id="accounting">
+                <label for="accounting" class="inter-font">Accounting</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="budget" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    Budget
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Budget" id="budget">
+                <label for="budget" class="inter-font">Budget</label>
+             </div>
         </div>
-
 
 
         <div class="form-control mt-5">

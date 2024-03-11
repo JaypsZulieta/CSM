@@ -15,56 +15,42 @@
             <option value="procurement">Procurement</option>
         </select> -->
 
-
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="cash" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    cash
-                    </span>
-            </label>
+        <div class="form-control mt-5">
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="cash" id="cash">
+                <label for="cash" class="inter-font">cash</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="personal" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    personal
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="personal" id="personal">
+                <label for="personal" class="inter-font">personal</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="records" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    records
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="records" id="records">
+                <label for="records" class="inter-font">records</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="supply" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    supply
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="supply" id="supply">
+                <label for="supply" class="inter-font">supply</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="general" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    general
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="General Services" id="general">
+                <label for="general" class="inter-font">General Services</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="procurement" required>
-                    <span class="label-text inter-font text-lg semi-bold">
-                    procurement
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Procurement" id="procurement">
+                <label for="procurement" class="inter-font">Procurement</label>
+             </div>
         </div>
-
 
         <div class="form-control mt-5">
             <div class="flex place-content-center gap-2">

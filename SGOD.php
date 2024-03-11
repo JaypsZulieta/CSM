@@ -29,56 +29,43 @@
                 SocMob - Social Mobilization and Networking
             </option>
         </select> -->
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value=" Education Facilities" required>
-                    <span class="label-text inter-font">
-                    Education Facilities
-                    </span>
-            </label>
-        </div>
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="HRD - Human Resource Development" required>
-                    <span class="label-text inter-font">
-                    HRD - Human Resource Development
-                    </span>
-            </label>
-        </div>
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="Planning & Research" required>
-                    <span class="label-text inter-font">
-                    Planning & Research
-                    </span>
-            </label>
-        </div>
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="School Health" required>
-                    <span class="label-text inter-font">
-                    School Health
-                    </span>
-            </label>
-        </div>
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="School Management Monitoring and Evaluation Section" required>
-                    <span class="label-text inter-font">
-                    SMME - School Management Monitoring and Evaluation Section
-                    </span>
-            </label>
-        </div>
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="office" value="Social Mobilization and Networking" required>
-                    <span class="label-text inter-font">
-                    SocMob - Social Mobilization and Networking
-                    </span>
-            </label>
-        </div>
 
-
+        <div class="form-control mt-5">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="Education Facilities" id="education">
+                <label for="education" class="inter-font">Education Facilities</label>
+             </div>
+        </div>
+        <div class="form-control">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="Human Resource Development" id="HRD">
+                <label for="HRD" class="inter-font"> HRD - Human Resource Development</label>
+             </div>
+        </div>
+        <div class="form-control">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="Planning & Research" id="Planning">
+                <label for="Planning" class="inter-font"> Planning & Research</label>
+             </div>
+        </div>
+        <div class="form-control">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value=" School Health" id="School">
+                <label for="School" class="inter-font"> School Health</label>
+             </div>
+        </div>
+        <div class="form-control">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="School Management Monitoring and Evaluation Section" id="SMME">
+                <label for="SMME" class="inter-font"> SMME - School Management Monitoring and Evaluation Section</label>
+             </div>
+        </div>
+        <div class="form-control">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="office" value="Human Resource Development" id="SocMob">
+                <label for="SocMob" class="inter-font">SocMob - Social Mobilization and Networking</label>
+             </div>
+        </div>
 
         <div class="form-control mt-5">
             <div class="flex gap-2 place-content-center">

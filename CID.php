@@ -13,29 +13,23 @@
             
         </select> -->
 
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Learning Resource Management Section" required>
-                    <span class="label-text inter-font">
-                    LRMS - Learning Resource Management Section
-                    </span>
-            </label>
+        <div class="form-control mt-5">
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="LRMS - Learning Resource Management Section" id="LRMS">
+                <label for="LRMS" class="inter-font">LRMS - Learning Resource Management Section</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Instructional Management Section" required>
-                    <span class="label-text inter-font">
-                    Instructional Management Section
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="Instructional Management Section" id="instructional">
+                <label for="instructional" class="inter-font">Instructional Management Section</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="PSDS" required>
-                    <span class="label-text inter-font">
-                    PSDS - Public School District Supervisor
-                    </span>
-            </label>
+             <div class="flex gap-5">   
+                <input class="radio radio-primary" type="radio" name="service" value="PSDS - Public School District Supervisor" id="PSDS">
+                <label for="PSDS" class="inter-font">PSDS - Public School District Supervisor</label>
+             </div>
         </div>
 
         <div class="form-control mt-5">

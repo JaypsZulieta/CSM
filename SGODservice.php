@@ -12,38 +12,32 @@
             <option value="performance-indicators">EBEIS/LIS/NAT Data and Performance Indicators</option>
             <option value="feedback">Other requests/inquiries</option>
         </select> -->
-        <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Private school-related" required>
-                    <span class="label-text inter-font">
-                    Private school-related
-                    </span>
-            </label>
+        
+        <div class="form-control mt-5">
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Private school-related" id="privateSchool">
+                <label for="privateSchool" class="inter-font">Private school-related</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Basic Education Data" required>
-                    <span class="label-text inter-font">
-                    Basic Education Data
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Basic Education Data" id="BasicEduc">
+                <label for="BasicEduc" class="inter-font">Basic Education Data</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value=" EBEIS/LIS/NAT Data and Performance Indicators" required>
-                    <span class="label-text inter-font">
-                    EBEIS/LIS/NAT Data and Performance Indicators
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="EBEIS/LIS/NAT Data and Performance Indicators" id="performance-indicators">
+                <label for="performance-indicators" class="inter-font">EBEIS/LIS/NAT Data and Performance Indicators</label>
+             </div>
         </div>
         <div class="form-control">
-            <label class="label cursor-pointer">
-                <input class="radio radio-primary" type="radio" name="service" value="Other requests/inquiries" required>
-                    <span class="label-text inter-font">
-                        Other requests/inquiries
-                    </span>
-            </label>
+             <div class="flex gap-5">
+                <input class="radio radio-primary" type="radio" name="service" value="Other requests/inquiries" id="feedback">
+                <label for="feedback" class="inter-font">Other requests/inquiries</label>
+             </div>
         </div>
+        
 
         <div class="form-control mt-5">
             <div class="flex place-content-center gap-2">
